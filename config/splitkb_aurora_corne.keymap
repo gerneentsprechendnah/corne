@@ -46,7 +46,7 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &kp  TAB  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT                                        &kp CARET &kp DE_N1  &kp DE_N2 &kp DE_N3 &kp PLUS &kp BSPC
-   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4                  &kp DE_N0 &kp DE_N4 &kp DE_N5 &kp DE_N6 &kp EQUAL &kp GRAVE
+   &bt BT_CLR_ALL &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4                  &kp DE_N0 &kp DE_N4 &kp DE_N5 &kp DE_N6 &kp EQUAL &kp GRAVE
    &kp LSHFT &trans   &trans &trans   &trans   &trans                                           &kp UNDER &kp DE_N7  &kp DE_N8  &kp DE_N9 &kp DE_MINUS &kp TILDE
                              &kp LGUI &trans   &kp SPACE                                        &kp RET   &trans    &kp RALT
                         >;
