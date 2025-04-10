@@ -18,10 +18,10 @@
 // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
-   &kp TAB   &kp DE_Q &kp W &kp E &kp R &kp T                               &kp Y &kp U  &kp I     &kp O   &kp P    &kp DE_A_UMLAUT
-   &kp LCTRL &mt LGUI A &mt LALT S &mt LCTRL D &mt LSHIFT F &kp G        &kp H &mt RSHIFT J &mt RCTRL K &mt RALT L &mt RGUI DE_O_UMLAUT &kp DE_U_UMLAUT 
-   &mo 3 &kp Z &kp X &kp C &kp V &kp B                               &kp N &kp M  &kp DE_COMMA &kp DOT &kp DE_MINUS &kp DE_QMARK
-                  &mo 2 &kp DEL &lt 1 SPACE                               &lt 1 RET &kp BSPC &mo 2
+   &kp TAB   &kp DE_Q &kp DE_W &kp DE_E &kp DE_R &kp DE_T                                       &kp DE_Z &kp DE_U  &kp DE_I     &kp DE_O   &kp DE_P    &kp DE_A_UMLAUT
+   &kp LCTRL &mt LGUI DE_A &mt LALT DE_S &mt LCTRL DE_D &mt LSHIFT DE_F &kp DE_G                &kp DE_H &mt RSHIFT DE_J &mt RCTRL DE_K &mt RALT DE_L &mt RGUI DE_O_UMLAUT &kp DE_U_UMLAUT 
+   &mo 3 &kp DE_Y &kp DE_X &kp DE_C &kp DE_V &kp DE_B                                           &kp DE_N &kp DE_M  &kp DE_COMMA &kp DE_DOT &kp DE_MINUS &kp DE_SZ
+                  &mo 2 &kp DEL &lt 1 SPACE                                                     &lt 1 RET &kp BSPC &mo 2
                         >;
                 };
                 lower_layer {
@@ -45,9 +45,9 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp  TAB  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT                                        &kp CARET &kp N1  &kp N2 &kp N3 &kp PLUS &kp BSPC
-   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4                  &kp N0 &kp N4 &kp N5 &kp N6 &kp EQUAL &kp GRAVE
-   &kp LSHFT &trans   &trans &trans   &trans   &trans                                           &kp UNDER &kp N7  &kp N8  &kp N9 &kp MINUS &kp TILDE
+   &kp  TAB  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT                                        &kp CARET &kp DE_N1  &kp DE_N2 &kp DE_N3 &kp PLUS &kp BSPC
+   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4                  &kp DE_N0 &kp DE_N4 &kp DE_N5 &kp DE_N6 &kp EQUAL &kp GRAVE
+   &kp LSHFT &trans   &trans &trans   &trans   &trans                                           &kp UNDER &kp DE_N7  &kp DE_N8  &kp DE_N9 &kp DE_MINUS &kp TILDE
                              &kp LGUI &trans   &kp SPACE                                        &kp RET   &trans    &kp RALT
                         >;
                 };
